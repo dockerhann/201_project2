@@ -1,0 +1,175 @@
+body, html {
+  background-color: #04132c;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+
+}
+#vr{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-image: url("img/infoImg.png");
+  filter: gray alpha(opacity=100);
+  -webkit-filter: grayscale(15%);
+
+}
+input {
+  width: 45%;
+  opacity: 0.6;
+  color: #10233e;
+}
+
+
+#vrload{
+  margin-top: 20%;
+  text-align: center;
+  background-color: #020e21;
+  opacity: 0.5;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 2.5em;
+}
+#vrload p{
+  opacity: 1;
+}
+p, a, ul, button, input {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  color: #fff;
+  opacity: 0.8;
+
+}
+
+#header {
+  background-color: #10233e;
+  width:100%;
+  min-height: 3%;
+  position: fixed;
+  padding: 0.5%;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+#header li {
+  float: right;
+  padding-right: 5%;
+}
+
+#logo_cnr {
+  float: left;
+  margin-left: 0%;
+  max-width: 12%;
+}
+
+#spacer{
+  background-color: #000;
+  visibility: hidden;
+  width:100%;
+  min-height: 4%;
+  max-width: 12%;
+  padding: 0.5%;
+}
+
+#spacer_cnr {
+  float: left;
+  margin-left: 0%;
+  max-width: 12%;
+}
+
+
+
+#intro{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-image: url("img/scan.png");
+
+
+
+  width: 100%;
+
+  padding-top: 16.5%;
+
+}
+
+#returning{
+  visibility: hidden;
+}
+
+#logo{
+  padding-left: 2%;
+  padding-right: 2%;
+  width:50%;
+}
+
+#new {
+  opacity: 0.6;
+  background-color: #10233e;
+  margin-left: 15%;
+  font-size: 2em;
+  padding: 0.5%;
+
+  margin-top:-10%;
+}
+
+button {
+  opacity: 0.6;
+  background-color: #10233e;
+  z-index: 2
+  border: none;
+  font-size: 2em;
+  outline: 0;
+}
+
+input, form form input, form p{
+  margin-left: 75%;
+  text-align: center;
+  width: 6%;
+}
+input{
+  color: #10233e;
+}
+#scroll{
+  text-align: center;
+  font-size: 2em;
+  opacity: 0.6;
+}
+
+#go{
+    background-color: #10233e;
+    outline: 0;
+    border: none;
+    width: 6.3%;
+    color: #fff;
+}
+.find{
+  text-align: center;
+  font-size: 2em;
+  opacity: 0.8;
+}
+
+#banner{
+  padding-bottom: 20%;
+}
+#findInfo{
+  width: 40%;
+  padding-top: 12%;
+  margin-left: 30%;
+  font-size: 1.5em;
+}
+
+#info{
+  margin-top: 10%;
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin-top: 23%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("img/infoImg.png");
+  filter: gray alpha(opacity=100);
+  -webkit-filter: grayscale(50%);
+}

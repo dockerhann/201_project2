@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+
+  <head>
+    <title>FindYOURSELF</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+    <script type="text/javascript" src="script/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+
+  </head>
+  <body>
+
+
+
+    <div id="header">
+      <a  href="#intro"><img id="logo_cnr" src="img/logo.png"/></a>
+
+      <nav>
+        <ul>
+          <li><a href="#info">INFORMATION</a></li>
+          <li><a href="home.html">HOME</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <div id="spacer"><a  href="home.html"><img id="logo_cnr" src="img/logo.png"/></a></div>
+    <div id="intro">
+
+      <p class="find">Find out what the internet knows about you. </p>
+      <a href="login.html" id="new">I'm new</a>
+      <image id="logo" src = "img/logo.png"/>
+
+
+      <button  style="border:none" id="returningUserButton" onclick="toggle_visibility('returning')">returning</button>
+
+      <form id="returning">
+        <p>what's your name?</p>
+        <input id="name" required></input>
+        <form action="login.html">
+          <input id="go" type="button" onclick="location.href='vr.html';"value="Go" />
+        </form>
+      </form>
+
+      <p id="scroll">scroll for <a href="#info">info</a></p>
+
+
+      <div id="info">
+        <p class="find" id="banner">
+          LOGIN to social media. SCAN your facial features. findYOURSELF.
+        </p>
+        <p class="find" id="findInfo">
+          The aim of FindYourself is to return to you power over
+          your personal details, giving back your control over your online personality.
+FindYourself is an online search engine that scours the web
+for your digital data, then creates your unique personality profile based on this information.
+Your personality profile will be generated as a virtual environment, showing you where each piece of
+information came from,  and how it altered your online presence. In this space, you will be able to
+edit and remove any information that you don't want made public. FindYourself puts the power back in your hands.
+        </p>
+
+
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
